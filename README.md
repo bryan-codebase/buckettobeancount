@@ -1,4 +1,4 @@
-# buckettobeancount
+# bucket to beancount
 Convert a "budget with buckets" file (partly) to a beancount file
 
 This script is meant to help with converting a "budget with buckets" file to a beancount file on an ongoing basis.
