@@ -8,16 +8,16 @@ First, change the FILE_PATH, OUTPUT_FILEPATH_START, and CURRENCY_SYMBOL constant
 It only converts "half" of each transaction.
 
 So, for example, it will write a transaction like this:
-  
-  2024-10-16 * "Checking-account" "Water supply"
-      Assets:Checking-account                -104.20 USD
-
+```
+2024-10-16 * "Checking-account" "Water supply"
+    Assets:Checking-account                -104.20 USD
+```
 I will then add (using autocomplete from my favorite text editor) a line to complete the transaction:
-
-  2024-10-16 * "Checking-account" "Water supply"
-      Assets:Checking-account                -104.20 USD
-      Expenses:Monthly-Bills:Utilities
-
+```
+2024-10-16 * "Checking-account" "Water supply"
+    Assets:Checking-account                -104.20 USD
+    Expenses:Monthly-Bills:Utilities
+```
 I then copy these over to my main .beancount file.
 
 It would be possible to create code to automatically fill the second line.  
